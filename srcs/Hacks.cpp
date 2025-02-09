@@ -8,10 +8,10 @@ static void ClearMessageAfterDelay(int milliseconds)
         {
             std::this_thread::sleep_for(std::chrono::milliseconds(milliseconds)); // Warten
 
-            // Die letzten 5 Zeilen löschen, indem der Cursor nach oben bewegt wird
+            
             for (int i = 0; i < 2; ++i)
             {
-                std::cout << "\033[A" << "\r                                                                    \r" << std::flush; // Eine Zeile nach oben und löschen
+                std::cout << "\033[A" << "\r                                                                    \r" << std::flush; // Eine Zeile nach oben und lÃ¶schen
             }
         }).detach();
 }
@@ -143,7 +143,7 @@ void Cheats::ToggleAmmoHack(Memory& memory, std::uintptr_t localPlayerAddress, b
     isActive = !isActive;
     std::cout << "\n[AmmoHack] " << (isActive ? "AKTIVIERT" : "DEAKTIVIERT") << std::flush;
 
-    // Nach 3 Sekunden löschen
+    // Nach 3 Sekunden lÃ¶schen
     ClearMessageAfterDelay(3000);
 }
 
