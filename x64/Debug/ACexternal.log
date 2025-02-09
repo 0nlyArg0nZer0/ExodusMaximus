@@ -1,0 +1,16 @@
+﻿  Scanning sources for module dependencies...
+  Memory.h
+  Compiling...
+  Memory.h
+C:\Users\0nlyArg0n\source\repos\ACexternal\ACexternal\srcs\Memory.h(25,62): warning C4244: 'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+C:\Users\0nlyArg0n\source\repos\ACexternal\ACexternal\srcs\Memory.h(48,71): warning C4244: 'argument': conversion from 'const uintptr_t' to 'DWORD', possible loss of data
+  main.cpp
+C:\Users\0nlyArg0n\source\repos\ACexternal\ACexternal\srcs\Memory.h(25,62): warning C4244: 'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+  (compiling source file 'srcs/main.cpp')
+  
+C:\Users\0nlyArg0n\source\repos\ACexternal\ACexternal\srcs\Memory.h(48,71): warning C4244: 'argument': conversion from 'const uintptr_t' to 'DWORD', possible loss of data
+  (compiling source file 'srcs/main.cpp')
+  
+Memory.h.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Color::rgb256(int)" (?rgb256@Color@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) already defined in main.obj
+Memory.h.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Color::rgb(int,int,int)" (?rgb@Color@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHH@Z) already defined in main.obj
+C:\Users\0nlyArg0n\source\repos\ACexternal\x64\Debug\ACexternal.exe : fatal error LNK1169: one or more multiply defined symbols found
