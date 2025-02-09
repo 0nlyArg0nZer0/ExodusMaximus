@@ -11,7 +11,7 @@ static void ClearMessageAfterDelay(int milliseconds)
             
             for (int i = 0; i < 2; ++i)
             {
-                std::cout << "\033[A" << "\r                                                                    \r" << std::flush; // Eine Zeile nach oben und löschen
+                std::cout << "\033[A" << "\r                                                                    \r" << std::flush; 
             }
         }).detach();
 }
