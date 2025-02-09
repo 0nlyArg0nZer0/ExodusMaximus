@@ -143,7 +143,7 @@ void Cheats::ToggleAmmoHack(Memory& memory, std::uintptr_t localPlayerAddress, b
     isActive = !isActive;
     std::cout << "\n[AmmoHack] " << (isActive ? "AKTIVIERT" : "DEAKTIVIERT") << std::flush;
 
-    // Nach 3 Sekunden löschen
+    
     ClearMessageAfterDelay(3000);
 }
 
