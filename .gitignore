@@ -1,0 +1,64 @@
+# Windows-Spezifische Dateien
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio-Dateien
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build-Ordner und Binärdateien
+/bin/
+/Debug/
+/Release/
+
+# C++-spezifische Build-Dateien
+*.pdb
+*.obj
+*.exe
+*.dll
+*.ilk
+*.idb
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.bak
+*.swp
+
+# Weitere temporäre Dateien
+.DS_Store
+# Konfigurationsdateien
+config.json
+config.local.json
+
+# API-Keys und Secrets
+*.env
+
+# Private Daten
+private_data/
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Mac OS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+
+# Build output
+/build
+/bin
+/obj
+
+# Geheimnisse
+*.env
+config.json
+
