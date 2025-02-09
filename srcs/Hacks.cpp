@@ -6,7 +6,8 @@ static void ClearMessageAfterDelay(int milliseconds)
 {
     std::thread([milliseconds]()
         {
-            std::this_thread::sleep_for(std::chrono::milliseconds(milliseconds)); // Warten
+            std::this_thread::sleep_for(std::chrono::milliseconds(milliseconds)); 
+		
 
             
             for (int i = 0; i < 2; ++i)
